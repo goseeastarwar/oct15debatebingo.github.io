@@ -25,7 +25,6 @@ var bingosquares = [
   "Shade thrown at another candidate's health",
   "Someone complains about not getting enough attention",
   "Standing ovation",
-  "Tulsi Gabbard wears white again",
   "Two candidates hug",
   "\"The middle class\"",
 	"Bernie is shouting and you don't know why",
@@ -36,7 +35,7 @@ var bingosquares = [
 
 var randombingosquare = bingosquares
     .sort(function() { return .5 - Math.random() })
-    .slice(0,32);
+    .slice(0,31);
 
 function GetBingoCard () {
   var getrandomsquare = document.getElementsByClassName("bingo_square");
