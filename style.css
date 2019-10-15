@@ -60,3 +60,10 @@ th {
 .bingo-square {
   overflow-wrap: break-word;
 }
+
+.content {
+  max-width: 650px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
