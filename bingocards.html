@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>bingo generator - 10/15/19 democratic debate</title>
+    <script src="bingocards.js"></script>
+    <link rel="stylesheet" type ="text/css" href ="style.css">
+  </head>
+  <body onload="GetBingoCard ()">
+    <table>
+      <tr>
+        <th id="B0">B</th>
+        <th id="I0">I</th>
+        <th id="N0">N</th>
+        <th id="G0">G</th>
+        <th id="O0">O</th>
+      </tr>
+      <tr class="card">
+        <td class="bingo_square" id="B1"></td>
+        <td class="bingo_square" id="I1"></td>
+        <td class="bingo_square" id="N1"></td>
+        <td class="bingo_square" id="G1"></td>
+        <td class="bingo_square" id="O1"></td>
+      </tr>
+      <tr class="card">
+        <td class="bingo_square" id="B2"></td>
+        <td class="bingo_square" id="I2"></td>
+        <td class="bingo_square" id="N2"></td>
+        <td class="bingo_square" id="G2"></td>
+        <td class="bingo_square" id="O2"></td>
+      </tr>
+      <tr class="card">
+        <td class="bingo_square" id="B3"></td>
+        <td class="bingo_square" id="I3"></td>
+        <td class="freesquare"><span class="FREE">FREE</span></td>
+        <td class="bingo_square" id="G3"></td>
+        <td class="bingo_square" id="O3"></td>
+      </tr>
+      <tr class="card">
+        <td class="bingo_square" id="B4"></td>
+        <td class="bingo_square" id="I4"></td>
+        <td class="bingo_square" id="N4"></td>
+        <td class="bingo_square" id="G4"></td>
+        <td class="bingo_square" id="O4"></td>
+      </tr>
+      <tr class="card">
+        <td class="bingo_square" id="B5"></td>
+        <td class="bingo_square" id="I5"></td>
+        <td class="bingo_square" id="N5"></td>
+        <td class="bingo_square" id="G5"></td>
+        <td class="bingo_square" id="O5"></td>
+      </tr>
+    </table>
+    <p></p>
+    <p>
+      <button onclick="refreshPage()">Get a new card!</button></center>
+    </p>
+  </body>
+</html>
