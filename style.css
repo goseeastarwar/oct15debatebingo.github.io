@@ -9,6 +9,8 @@ button {
   padding: 5px 20px 5px 20px;
   color: #ffffff;
   background-color: #666666;
+  width: 125px;
+  margin: auto;
 }
 
 table, th, td {
