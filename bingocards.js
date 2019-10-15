@@ -27,12 +27,16 @@ var bingosquares = [
   "Standing ovation",
   "Tulsi Gabbard wears white again",
   "Two candidates hug",
-  "\"The middle class\""
+  "\"The middle class\"",
+	"Bernie is shouting and you don't know why",
+	"Mayor Pete is smug about neoliberalism",
+	"Biden is clearly confused about where he is and why he hasn't won already",
+	"Beto just Betos all over the place"
 ];
 
 var randombingosquare = bingosquares
     .sort(function() { return .5 - Math.random() })
-    .slice(0,28);
+    .slice(0,32);
 
 function GetBingoCard () {
   var getrandomsquare = document.getElementsByClassName("bingo_square");
