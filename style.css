@@ -1,6 +1,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 0.85em;
+  display: block;
 }
 
 button {
@@ -8,7 +9,6 @@ button {
   padding: 5px 20px 5px 20px;
   color: #ffffff;
   background-color: #666666;
-  display: block;
 }
 
 table, th, td {
